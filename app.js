@@ -1,6 +1,8 @@
 import express from 'express'
 import mongoose from "mongoose";
-const CONNECTION_STRING = "mongodb+srv://AylaDursun:Dursun416@cluster0.hhqs7qt.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_STRING =
+"mongodb+srv://[AylaDursun:Dursun416@]host1/tuiter?retryWrites=true&w=majority";
+//"mongodb+srv://AylaDursun:Dursun416@cluster0.hhqs7qt.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(CONNECTION_STRING);
 import cors from 'cors'
 import HelloController
