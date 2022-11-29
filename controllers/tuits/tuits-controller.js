@@ -8,7 +8,7 @@ const createTuit = async (req, res) => {
   newTuit.disliked = false;
   newTuit.replies = 0;
   newTuit.retuits = 0;
-  newTuit.handle = "nasa";
+  newTuit.handle = "NASA";
   newTuit.username = "NASA";
   newTuit.image = "nasa.png";
   newTuit.time = "0h";
